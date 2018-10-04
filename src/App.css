@@ -1,0 +1,42 @@
+.App {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.counter-wrapper{
+    
+    width:100%;
+    height:50px;
+    border-radius:15px;
+    margin:10px auto;
+    text-align:center;
+}
+
+.display-counter {
+    color:#ff0800;
+    display:inline-block;
+    border:1px solid #4286f4;
+    width:25%;
+    margin:10px 15px;
+    border-radius: 5px;
+    font-weight:bolder;
+}
+
+#hours, #minutes, #seconds {
+    border-color: #4286f4
+}
+
+/* Removes Focus */
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  h1 {
+      font-size: 30px;
+      text-align:center;
+      color:#4286f4;
+  }
